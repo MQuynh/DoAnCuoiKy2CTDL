@@ -86,7 +86,7 @@ namespace DOANCTDL
             if (tmrCountTime.Enabled)
             {
                 tmrCountTime.Enabled = false;
-                btnPause.Text = "choi tiep";
+                btnPause.Text = "Chơi Tiếp";
 
                 /* cả 3 cột*/
                 picRodA.Enabled = false;
@@ -100,7 +100,7 @@ namespace DOANCTDL
                 picRodA.Enabled = true;
                 picRodB.Enabled = true;
                 picRodC.Enabled = true;
-                btnPause.Text = "tam dung";
+                btnPause.Text = "Tạm Dừng";
 
             }
 
